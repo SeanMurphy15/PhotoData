@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B99924BD1AD64F54CBB8EF4 /* Pods_PhotoData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2B68E6F29C21EDAB9B2C68 /* Pods_PhotoData.framework */; };
+		FF081B1F1D8B1CE100EE73D0 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF081B1D1D8B1CE100EE73D0 /* PhotoCollectionViewCell.swift */; };
+		FF081B201D8B1CE100EE73D0 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF081B1E1D8B1CE100EE73D0 /* PhotoCollectionViewCell.xib */; };
+		FF081B221D8B1E0B00EE73D0 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF081B211D8B1E0B00EE73D0 /* PhotosCollectionViewController.swift */; };
 		FF3D27001D8B0C0F005A0AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D26FF1D8B0C0F005A0AE9 /* AppDelegate.swift */; };
-		FF3D27021D8B0C0F005A0AE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D27011D8B0C0F005A0AE9 /* ViewController.swift */; };
+		FF3D27021D8B0C0F005A0AE9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D27011D8B0C0F005A0AE9 /* LoginViewController.swift */; };
 		FF3D27051D8B0C0F005A0AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3D27031D8B0C0F005A0AE9 /* Main.storyboard */; };
 		FF3D27071D8B0C0F005A0AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3D27061D8B0C0F005A0AE9 /* Assets.xcassets */; };
 		FF3D270A1D8B0C0F005A0AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3D27081D8B0C0F005A0AE9 /* LaunchScreen.storyboard */; };
 		FF3D27151D8B0C0F005A0AE9 /* PhotoDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D27141D8B0C0F005A0AE9 /* PhotoDataTests.swift */; };
 		FF3D27201D8B0C0F005A0AE9 /* PhotoDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D271F1D8B0C0F005A0AE9 /* PhotoDataUITests.swift */; };
+		FF830EA01D8B10BA00CF54F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF830E9F1D8B10BA00CF54F6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27C9FE2EB9A19A0FF30207BC /* Pods-PhotoData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoData/Pods-PhotoData.debug.xcconfig"; sourceTree = "<group>"; };
+		6F2B68E6F29C21EDAB9B2C68 /* Pods_PhotoData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B492A21063266843A60D34 /* Pods-PhotoData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoData.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoData/Pods-PhotoData.release.xcconfig"; sourceTree = "<group>"; };
+		FF081B1D1D8B1CE100EE73D0 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF081B1E1D8B1CE100EE73D0 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		FF081B211D8B1E0B00EE73D0 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		FF3D26FC1D8B0C0F005A0AE9 /* PhotoData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3D26FF1D8B0C0F005A0AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF3D27011D8B0C0F005A0AE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF3D27011D8B0C0F005A0AE9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FF3D27041D8B0C0F005A0AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF3D27061D8B0C0F005A0AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF3D27091D8B0C0F005A0AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,8 @@
 		FF3D271B1D8B0C0F005A0AE9 /* PhotoDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3D271F1D8B0C0F005A0AE9 /* PhotoDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataUITests.swift; sourceTree = "<group>"; };
 		FF3D27211D8B0C0F005A0AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF830E9F1D8B10BA00CF54F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FF830EA11D8B16A600CF54F6 /* PhotoData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoData.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B99924BD1AD64F54CBB8EF4 /* Pods_PhotoData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D074B22CDFF0C3B388CC308 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F2B68E6F29C21EDAB9B2C68 /* Pods_PhotoData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C2BA3EE32238FAFA37370F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27C9FE2EB9A19A0FF30207BC /* Pods-PhotoData.debug.xcconfig */,
+				B5B492A21063266843A60D34 /* Pods-PhotoData.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FF3D26F31D8B0C0F005A0AE9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +112,8 @@
 				FF3D27131D8B0C0F005A0AE9 /* PhotoDataTests */,
 				FF3D271E1D8B0C0F005A0AE9 /* PhotoDataUITests */,
 				FF3D26FD1D8B0C0F005A0AE9 /* Products */,
+				9C2BA3EE32238FAFA37370F5 /* Pods */,
+				5D074B22CDFF0C3B388CC308 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +131,16 @@
 			isa = PBXGroup;
 			children = (
 				FF3D26FF1D8B0C0F005A0AE9 /* AppDelegate.swift */,
-				FF3D27011D8B0C0F005A0AE9 /* ViewController.swift */,
+				FF3D27011D8B0C0F005A0AE9 /* LoginViewController.swift */,
+				FF081B1D1D8B1CE100EE73D0 /* PhotoCollectionViewCell.swift */,
+				FF081B211D8B1E0B00EE73D0 /* PhotosCollectionViewController.swift */,
+				FF081B1E1D8B1CE100EE73D0 /* PhotoCollectionViewCell.xib */,
 				FF3D27031D8B0C0F005A0AE9 /* Main.storyboard */,
 				FF3D27061D8B0C0F005A0AE9 /* Assets.xcassets */,
 				FF3D27081D8B0C0F005A0AE9 /* LaunchScreen.storyboard */,
 				FF3D270B1D8B0C0F005A0AE9 /* Info.plist */,
+				FF830EA11D8B16A600CF54F6 /* PhotoData.entitlements */,
+				FF830E9F1D8B10BA00CF54F6 /* GoogleService-Info.plist */,
 			);
 			path = PhotoData;
 			sourceTree = "<group>";
@@ -132,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF3D27241D8B0C0F005A0AE9 /* Build configuration list for PBXNativeTarget "PhotoData" */;
 			buildPhases = (
+				31168133A69C115F7E29B078 /* Check Pods Manifest.lock */,
 				FF3D26F81D8B0C0F005A0AE9 /* Sources */,
 				FF3D26F91D8B0C0F005A0AE9 /* Frameworks */,
 				FF3D26FA1D8B0C0F005A0AE9 /* Resources */,
+				6CD7C16C32C067755FD64C43 /* Embed Pods Frameworks */,
+				C0D865EDF9D0188B22B443E9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +234,13 @@
 				TargetAttributes = {
 					FF3D26FB1D8B0C0F005A0AE9 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RXHJKR4N7Q;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					FF3D270F1D8B0C0F005A0AE9 = {
 						CreatedOnToolsVersion = 8.0;
@@ -233,8 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF3D270A1D8B0C0F005A0AE9 /* LaunchScreen.storyboard in Resources */,
+				FF830EA01D8B10BA00CF54F6 /* GoogleService-Info.plist in Resources */,
 				FF3D27071D8B0C0F005A0AE9 /* Assets.xcassets in Resources */,
 				FF3D27051D8B0C0F005A0AE9 /* Main.storyboard in Resources */,
+				FF081B201D8B1CE100EE73D0 /* PhotoCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +303,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31168133A69C115F7E29B078 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6CD7C16C32C067755FD64C43 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoData/Pods-PhotoData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0D865EDF9D0188B22B443E9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoData/Pods-PhotoData-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF3D26F81D8B0C0F005A0AE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF3D27021D8B0C0F005A0AE9 /* ViewController.swift in Sources */,
+				FF3D27021D8B0C0F005A0AE9 /* LoginViewController.swift in Sources */,
 				FF3D27001D8B0C0F005A0AE9 /* AppDelegate.swift in Sources */,
+				FF081B1F1D8B1CE100EE73D0 /* PhotoCollectionViewCell.swift in Sources */,
+				FF081B221D8B1E0B00EE73D0 /* PhotosCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,8 +507,11 @@
 		};
 		FF3D27251D8B0C0F005A0AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C9FE2EB9A19A0FF30207BC /* Pods-PhotoData.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PhotoData/PhotoData.entitlements;
+				DEVELOPMENT_TEAM = RXHJKR4N7Q;
 				INFOPLIST_FILE = PhotoData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sean-Murphy.PhotoData";
@@ -420,8 +522,11 @@
 		};
 		FF3D27261D8B0C0F005A0AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5B492A21063266843A60D34 /* Pods-PhotoData.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PhotoData/PhotoData.entitlements;
+				DEVELOPMENT_TEAM = RXHJKR4N7Q;
 				INFOPLIST_FILE = PhotoData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sean-Murphy.PhotoData";
@@ -503,6 +608,7 @@
 				FF3D27261D8B0C0F005A0AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF3D27271D8B0C0F005A0AE9 /* Build configuration list for PBXNativeTarget "PhotoDataTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +617,7 @@
 				FF3D27291D8B0C0F005A0AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF3D272A1D8B0C0F005A0AE9 /* Build configuration list for PBXNativeTarget "PhotoDataUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +626,7 @@
 				FF3D272C1D8B0C0F005A0AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
