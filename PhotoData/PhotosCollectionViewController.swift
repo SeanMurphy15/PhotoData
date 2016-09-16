@@ -7,9 +7,15 @@
 //
 
 import UIKit
+//import FirebaseStorage
+//import Firebase
 
 
 class PhotosCollectionViewController: UICollectionViewController {
+
+//	let storageRef = FIRStorage.storage().reference()
+	var imageArray: [UIImage] = []
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +26,6 @@ class PhotosCollectionViewController: UICollectionViewController {
 			collectionView?.register(UINib(nibName: "PhotoCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "photoCollectionViewCell")
 
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

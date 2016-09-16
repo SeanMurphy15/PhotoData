@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="k8v-mw-RdM">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -52,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="133.59999999999999" y="119.1904047976012"/>
         </scene>
-        <!--Collection View Controller-->
+        <!--Photos Collection View Controller-->
         <scene sceneID="OZo-Sb-rq1">
             <objects>
-                <collectionViewController id="mcb-UQ-oD1" sceneMemberID="viewController">
+                <collectionViewController id="mcb-UQ-oD1" customClass="PhotosCollectionViewController" customModule="PhotoData" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Sd1-X4-M0A">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,6 +85,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dGV-OR-SrD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="962" y="128"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="Yua-01-rr1">
+            <objects>
+                <viewController id="k8v-mw-RdM" customClass="CameraViewController" customModule="PhotoData" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fuf-A4-lcQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="aVN-EX-Y1M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lOj-qa-9g5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GEa-TI-9mY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="529" y="789"/>
         </scene>
     </scenes>
 </document>

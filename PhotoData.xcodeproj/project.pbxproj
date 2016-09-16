@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B99924BD1AD64F54CBB8EF4 /* Pods_PhotoData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2B68E6F29C21EDAB9B2C68 /* Pods_PhotoData.framework */; };
+		9B99924BD1AD64F54CBB8EF4 /* Pods_PhotoData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2B68E6F29C21EDAB9B2C68 /* Pods_PhotoData.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FF081B1F1D8B1CE100EE73D0 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF081B1D1D8B1CE100EE73D0 /* PhotoCollectionViewCell.swift */; };
 		FF081B201D8B1CE100EE73D0 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF081B1E1D8B1CE100EE73D0 /* PhotoCollectionViewCell.xib */; };
 		FF081B221D8B1E0B00EE73D0 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF081B211D8B1E0B00EE73D0 /* PhotosCollectionViewController.swift */; };
@@ -19,6 +19,7 @@
 		FF3D27151D8B0C0F005A0AE9 /* PhotoDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D27141D8B0C0F005A0AE9 /* PhotoDataTests.swift */; };
 		FF3D27201D8B0C0F005A0AE9 /* PhotoDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D271F1D8B0C0F005A0AE9 /* PhotoDataUITests.swift */; };
 		FF830EA01D8B10BA00CF54F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF830E9F1D8B10BA00CF54F6 /* GoogleService-Info.plist */; };
+		FFA98ACA1D8B28A5001B7DB0 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA98AC91D8B28A5001B7DB0 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +60,8 @@
 		FF3D271F1D8B0C0F005A0AE9 /* PhotoDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataUITests.swift; sourceTree = "<group>"; };
 		FF3D27211D8B0C0F005A0AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF830E9F1D8B10BA00CF54F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		FF830EA11D8B16A600CF54F6 /* PhotoData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoData.entitlements; sourceTree = "<group>"; };
+		FFA98AC91D8B28A5001B7DB0 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		FFCD34921D8B7CE700233996 /* PhotoData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoData.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,16 +132,17 @@
 		FF3D26FE1D8B0C0F005A0AE9 /* PhotoData */ = {
 			isa = PBXGroup;
 			children = (
+				FFCD34921D8B7CE700233996 /* PhotoData.entitlements */,
 				FF3D26FF1D8B0C0F005A0AE9 /* AppDelegate.swift */,
 				FF3D27011D8B0C0F005A0AE9 /* LoginViewController.swift */,
 				FF081B1D1D8B1CE100EE73D0 /* PhotoCollectionViewCell.swift */,
 				FF081B211D8B1E0B00EE73D0 /* PhotosCollectionViewController.swift */,
+				FFA98AC91D8B28A5001B7DB0 /* CameraViewController.swift */,
 				FF081B1E1D8B1CE100EE73D0 /* PhotoCollectionViewCell.xib */,
 				FF3D27031D8B0C0F005A0AE9 /* Main.storyboard */,
 				FF3D27061D8B0C0F005A0AE9 /* Assets.xcassets */,
 				FF3D27081D8B0C0F005A0AE9 /* LaunchScreen.storyboard */,
 				FF3D270B1D8B0C0F005A0AE9 /* Info.plist */,
-				FF830EA11D8B16A600CF54F6 /* PhotoData.entitlements */,
 				FF830E9F1D8B10BA00CF54F6 /* GoogleService-Info.plist */,
 			);
 			path = PhotoData;
@@ -357,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF3D27021D8B0C0F005A0AE9 /* LoginViewController.swift in Sources */,
+				FFA98ACA1D8B28A5001B7DB0 /* CameraViewController.swift in Sources */,
 				FF3D27001D8B0C0F005A0AE9 /* AppDelegate.swift in Sources */,
 				FF081B1F1D8B1CE100EE73D0 /* PhotoCollectionViewCell.swift in Sources */,
 				FF081B221D8B1E0B00EE73D0 /* PhotosCollectionViewController.swift in Sources */,
@@ -432,6 +436,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -481,6 +486,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -512,7 +518,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PhotoData/PhotoData.entitlements;
 				DEVELOPMENT_TEAM = RXHJKR4N7Q;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = PhotoData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sean-Murphy.PhotoData";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -527,7 +535,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PhotoData/PhotoData.entitlements;
 				DEVELOPMENT_TEAM = RXHJKR4N7Q;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = PhotoData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Sean-Murphy.PhotoData";
 				PRODUCT_NAME = "$(TARGET_NAME)";
