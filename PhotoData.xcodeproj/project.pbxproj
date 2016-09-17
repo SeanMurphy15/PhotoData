@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B99924BD1AD64F54CBB8EF4 /* Pods_PhotoData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2B68E6F29C21EDAB9B2C68 /* Pods_PhotoData.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B53CDD803CB198B1C7BA2A9F /* Pods_PhotoData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2B68E6F29C21EDAB9B2C68 /* Pods_PhotoData.framework */; };
 		FF081B1F1D8B1CE100EE73D0 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF081B1D1D8B1CE100EE73D0 /* PhotoCollectionViewCell.swift */; };
 		FF081B201D8B1CE100EE73D0 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF081B1E1D8B1CE100EE73D0 /* PhotoCollectionViewCell.xib */; };
 		FF081B221D8B1E0B00EE73D0 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF081B211D8B1E0B00EE73D0 /* PhotosCollectionViewController.swift */; };
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B99924BD1AD64F54CBB8EF4 /* Pods_PhotoData.framework in Frameworks */,
+				B53CDD803CB198B1C7BA2A9F /* Pods_PhotoData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

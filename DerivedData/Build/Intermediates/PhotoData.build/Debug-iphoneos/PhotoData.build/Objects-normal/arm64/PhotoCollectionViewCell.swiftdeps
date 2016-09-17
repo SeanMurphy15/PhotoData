@@ -1,0 +1,231 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PhotoCollectionViewCell"
+provides-nominal:
+- "C9PhotoData23PhotoCollectionViewCell"
+provides-member:
+- ["C9PhotoData23PhotoCollectionViewCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "photoImageView"
+depends-top-level:
+- "UICollectionViewCell"
+- "PhotoCollectionViewCell"
+- "UIImageView"
+depends-member:
+- ["Ps9AnyObject", "awakeFromNib"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "photoImageView"]
+- ["Ps9AnyObject", ""]
+- ["PSo15CALayerDelegate", "awakeFromNib"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", "photoImageView"]
+- ["PSo15CALayerDelegate", ""]
+- ["VSC6CGRect", "deinit"]
+- ["Ps7CVarArg", "awakeFromNib"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "photoImageView"]
+- ["Ps7CVarArg", ""]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "photoImageView"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "photoImageView"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "awakeFromNib"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "photoImageView"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "awakeFromNib"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "photoImageView"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "photoImageView"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "photoImageView"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "photoImageView"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["C9PhotoData23PhotoCollectionViewCell", "UIImageView"]
+- ["C9PhotoData23PhotoCollectionViewCell", "awakeFromNib"]
+- ["C9PhotoData23PhotoCollectionViewCell", "deinit"]
+- ["C9PhotoData23PhotoCollectionViewCell", "init"]
+- ["C9PhotoData23PhotoCollectionViewCell", "photoImageView"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "photoImageView"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "photoImageView"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "photoImageView"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo24UICollectionReusableView", "UIImageView"]
+- ["CSo24UICollectionReusableView", "awakeFromNib"]
+- ["CSo24UICollectionReusableView", "init"]
+- ["CSo24UICollectionReusableView", "photoImageView"]
+- ["CSo20UICollectionViewCell", "UIImageView"]
+- ["CSo20UICollectionViewCell", "awakeFromNib"]
+- ["CSo20UICollectionViewCell", "deinit"]
+- ["CSo20UICollectionViewCell", "init"]
+- ["CSo20UICollectionViewCell", "photoImageView"]
+- ["CSo20UICollectionViewCell", ""]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "photoImageView"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "photoImageView"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "photoImageView"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo11UIFocusItem", "awakeFromNib"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", "photoImageView"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "photoImageView"]
+- ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "photoImageView"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "photoImageView"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "photoImageView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "photoImageView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- ["Ps9_Hashable", "awakeFromNib"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "photoImageView"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "PSo15CALayerDelegate"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "SQ"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "C9PhotoData23PhotoCollectionViewCell"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo24UICollectionReusableView"
+- "CSo20UICollectionViewCell"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Firebase/Headers/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUserInfo.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUser.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthCredential.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthErrors.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuth.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRTwitterAuthProvider.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRGoogleAuthProvider.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRGitHubAuthProvider.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRFacebookAuthProvider.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIREmailPasswordAuthProvider.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageTaskSnapshot.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageUploadTask.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageReference.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageMetadata.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageTask.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageObservableTask.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageDownloadTask.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageConstants.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorage.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FirebaseStorage.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FIRInstanceID.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FirebaseInstanceID.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRServerValue.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRTransactionResult.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRMutableData.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataSnapshot.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataEventType.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseQuery.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseReference.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabase.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FirebaseDatabase.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FirebaseAuth.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIROptions.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRConfiguration.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRApp.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalyticsConfiguration.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRUserPropertyNames.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRParameterNames.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIREventNames.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics+AppDelegate.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FirebaseAnalytics.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Firebase/Headers/Firebase.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+interface-hash: "eef5c318aa295350b16dc14ada6310ed"

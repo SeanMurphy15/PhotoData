@@ -29,10 +29,9 @@ class CameraViewController: UIViewController, AVCapturePhotoCaptureDelegate{
 		print(databaseRef)
 		if let discoverySession = AVCaptureDeviceDiscoverySession(deviceTypes: [.builtInTelephotoCamera], mediaType: AVMediaTypeVideo, position: AVCaptureDevicePosition.front){
 
-		if let captureDevice = discoverySession.devices.first{
 
 			do {
-				let input = try AVCaptureDeviceInput(device: captureDevice)
+				let input = try AVCaptureDeviceInput(device: discoverySession.devices.first)
 				captureSession.addInput(input)
 			} catch _ {
 				print("error: \(error?.localizedDescription)")
@@ -51,7 +50,7 @@ class CameraViewController: UIViewController, AVCapturePhotoCaptureDelegate{
 				view.addSubview(cameraPreview)
 			}
 		}
-	}
+
 	}
 
 	func capture(_ captureOutput: AVCapturePhotoOutput, didFinishProcessingPhotoSampleBuffer photoSampleBuffer: CMSampleBuffer?, previewPhotoSampleBuffer: CMSampleBuffer?, resolvedSettings: AVCaptureResolvedPhotoSettings, bracketSettings: AVCaptureBracketedStillImageSettings?, error: Error?) {

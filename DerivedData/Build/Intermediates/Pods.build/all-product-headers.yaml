@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/DerivedData/Build/Products/Debug-iphoneos/Pods_PhotoData.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-PhotoData-umbrella.h",
+          'external-contents': "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Target Support Files/Pods-PhotoData/Pods-PhotoData-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_PhotoData-Swift.h",
+          'external-contents': "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/DerivedData/Build/Products/Debug-iphoneos/Pods_PhotoData.framework/Headers/Pods_PhotoData-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/DerivedData/Build/Products/Debug-iphoneos/Pods_PhotoData.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/DerivedData/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PhotoData.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C9PhotoData11AppDelegate"
+provides-member:
+- ["C9PhotoData11AppDelegate", ""]
+provides-dynamic-lookup:
+- "applicationWillTerminate"
+- "applicationDidEnterBackground"
+- "window"
+- "applicationDidBecomeActive"
+- "application"
+- "applicationWillEnterForeground"
+- "applicationWillResignActive"
+depends-top-level:
+- "UIApplicationDelegate"
+- "Bool"
+- !private "FIRApp"
+- "AppDelegate"
+- "UIWindow"
+- "UIApplication"
+- "UIApplicationLaunchOptionsKey"
+- !private "BooleanLiteralType"
+- "UIResponder"
+depends-member:
+- !private ["Ps9AnyObject", "FIRApp"]
+- ["Ps9AnyObject", "application"]
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidEnterBackground"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationDidReceiveMemoryWarning"]
+- ["Ps9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9AnyObject", "applicationSignificantTimeChange"]
+- ["Ps9AnyObject", "applicationWillEnterForeground"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- ["Ps9AnyObject", "applicationWillTerminate"]
+- !private ["Ps9AnyObject", "configure"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "window"]
+- ["Ps9AnyObject", ""]
+- ["C9PhotoData11AppDelegate", "Bool"]
+- !private ["C9PhotoData11AppDelegate", "FIRApp"]
+- ["C9PhotoData11AppDelegate", "UIApplication"]
+- ["C9PhotoData11AppDelegate", "UIApplicationLaunchOptionsKey"]
+- ["C9PhotoData11AppDelegate", "UIWindow"]
+- ["C9PhotoData11AppDelegate", "application"]
+- ["C9PhotoData11AppDelegate", "applicationDidBecomeActive"]
+- ["C9PhotoData11AppDelegate", "applicationDidEnterBackground"]
+- ["C9PhotoData11AppDelegate", "applicationDidFinishLaunching"]
+- ["C9PhotoData11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C9PhotoData11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C9PhotoData11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C9PhotoData11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C9PhotoData11AppDelegate", "applicationSignificantTimeChange"]
+- ["C9PhotoData11AppDelegate", "applicationWillEnterForeground"]
+- ["C9PhotoData11AppDelegate", "applicationWillResignActive"]
+- ["C9PhotoData11AppDelegate", "applicationWillTerminate"]
+- ["C9PhotoData11AppDelegate", "deinit"]
+- ["C9PhotoData11AppDelegate", "init"]
+- ["C9PhotoData11AppDelegate", "window"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "FIRApp"]
+- ["Ps7CVarArg", "application"]
+- ["Ps7CVarArg", "applicationDidBecomeActive"]
+- ["Ps7CVarArg", "applicationDidEnterBackground"]
+- ["Ps7CVarArg", "applicationDidFinishLaunching"]
+- ["Ps7CVarArg", "applicationDidReceiveMemoryWarning"]
+- ["Ps7CVarArg", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps7CVarArg", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps7CVarArg", "applicationShouldRequestHealthAuthorization"]
+- ["Ps7CVarArg", "applicationSignificantTimeChange"]
+- ["Ps7CVarArg", "applicationWillEnterForeground"]
+- ["Ps7CVarArg", "applicationWillResignActive"]
+- ["Ps7CVarArg", "applicationWillTerminate"]
+- !private ["Ps7CVarArg", "configure"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "window"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "FIRApp"]
+- ["Ps28CustomDebugStringConvertible", "application"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps28CustomDebugStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- !private ["Ps28CustomDebugStringConvertible", "configure"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "window"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "FIRApp"]
+- ["Ps23CustomStringConvertible", "application"]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["Ps23CustomStringConvertible", "configure"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "window"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "FIRApp"]
+- ["Ps9Equatable", "application"]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidEnterBackground"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9Equatable", "applicationSignificantTimeChange"]
+- ["Ps9Equatable", "applicationWillEnterForeground"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- ["Ps9Equatable", "applicationWillTerminate"]
+- !private ["Ps9Equatable", "configure"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "window"]
+- ["Ps9Equatable", ""]
+- !private ["CSo6FIRApp", "configure"]
+- !private ["Ps8Hashable", "FIRApp"]
+- ["Ps8Hashable", "application"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidEnterBackground"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps8Hashable", "applicationSignificantTimeChange"]
+- ["Ps8Hashable", "applicationWillEnterForeground"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- ["Ps8Hashable", "applicationWillTerminate"]
+- !private ["Ps8Hashable", "configure"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "window"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "FIRApp"]
+- ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
+- ["CSo8NSObject", "UIWindow"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- !private ["CSo8NSObject", "configure"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "FIRApp"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "configure"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- !private ["PSo21UIApplicationDelegate", "FIRApp"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "FIRApp"]
+- ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
+- ["CSo11UIResponder", "UIWindow"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- ["CSo11UIResponder", "deinit"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+- !private ["PSo30UIResponderStandardEditActions", "FIRApp"]
+- ["PSo30UIResponderStandardEditActions", "application"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidBecomeActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidEnterBackground"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidFinishLaunching"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationShouldRequestHealthAuthorization"]
+- ["PSo30UIResponderStandardEditActions", "applicationSignificantTimeChange"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillEnterForeground"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillResignActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillTerminate"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "window"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["Ps9_Hashable", "FIRApp"]
+- ["Ps9_Hashable", "application"]
+- ["Ps9_Hashable", "applicationDidBecomeActive"]
+- ["Ps9_Hashable", "applicationDidEnterBackground"]
+- ["Ps9_Hashable", "applicationDidFinishLaunching"]
+- ["Ps9_Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9_Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9_Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9_Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9_Hashable", "applicationSignificantTimeChange"]
+- ["Ps9_Hashable", "applicationWillEnterForeground"]
+- ["Ps9_Hashable", "applicationWillResignActive"]
+- ["Ps9_Hashable", "applicationWillTerminate"]
+- !private ["Ps9_Hashable", "configure"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "window"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C9PhotoData11AppDelegate"
+- "Sb"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "CSo6FIRApp"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "PSo21UIApplicationDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Firebase/Headers/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUserInfo.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUser.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthCredential.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthErrors.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuth.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRTwitterAuthProvider.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRGoogleAuthProvider.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRGitHubAuthProvider.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRFacebookAuthProvider.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIREmailPasswordAuthProvider.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageTaskSnapshot.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageUploadTask.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageReference.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageMetadata.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageTask.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageObservableTask.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageDownloadTask.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageConstants.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorage.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FirebaseStorage.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FIRInstanceID.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FirebaseInstanceID.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRServerValue.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRTransactionResult.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRMutableData.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataSnapshot.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataEventType.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseQuery.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseReference.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabase.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FirebaseDatabase.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FirebaseAuth.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIROptions.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRConfiguration.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRApp.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalyticsConfiguration.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRUserPropertyNames.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRParameterNames.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIREventNames.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics+AppDelegate.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FirebaseAnalytics.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/Firebase/Headers/Firebase.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+interface-hash: "cae7eb5554a5776cf29417b6d91e7414"

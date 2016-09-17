@@ -7,13 +7,13 @@
 //
 
 import UIKit
-//import FirebaseStorage
-//import Firebase
+import FirebaseStorage
+import Firebase
 
 
 class PhotosCollectionViewController: UICollectionViewController {
 
-//	let storageRef = FIRStorage.storage().reference()
+	let storageRef = FIRStorage.storage().reference()
 	var imageArray: [UIImage] = []
 
 

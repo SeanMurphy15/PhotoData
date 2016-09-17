@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "42f1af1eeca6473fd602fbda7a1461b5"
+build_time: [527310136, 66175000]
+inputs:
+  "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/PhotoData/LoginViewController.swift": [527278562, 0]
+  "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/PhotoData/CameraViewController.swift": [527309491, 0]
+  "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/PhotoData/AppDelegate.swift": [527274659, 0]
+  "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/PhotoData/PhotoCollectionViewCell.swift": [527278860, 0]
+  "/Users/Sean_Murphy/Desktop/iOS Projects/PhotoData/PhotoData/PhotosCollectionViewController.swift": [527304171, 0]
